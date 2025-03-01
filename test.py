@@ -17,7 +17,6 @@ for item in transportation:
         print(f"I would like to own a {item}.")
     elif "bicycle" in item:
         print(f"I would like to own a {item}.")
-    elif "walking" in item:
-        print(f"I would like to own a {item}.")
     else:
         print(f"I would like to own a {item}.")
+        
