@@ -32,5 +32,5 @@ for var5 in cubes:
     print(var5)
 
 #problem 4.9
-cube = [number**3 for number in range(1, 11)]
+cube = [number**3 for number in range(1, 11)] 
 print(cube)
