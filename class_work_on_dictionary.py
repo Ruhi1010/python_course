@@ -1,7 +1,7 @@
 # 6-4
 glossary = {
-     'dictionary': 'A collection of key-value pairs.',
-     'list': 'An ordered collection of items.',
+     'dictionary': 'It is basically Hash-map',
+     'list': 'It is basically an array.',
      'tuple': 'An immutable list.'
 }
 for key,val in glossary.items():
