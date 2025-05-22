@@ -5,9 +5,8 @@ def make_album(artist, title, num_songs=None):
         album['num_songs'] = num_songs
     return album
 
-album_1 = make_album("The Beatles", "Abbey Road")
-album_2 = make_album("Adele", "25", 11)
-album_3 = make_album("Pink Floyd", "The Dark Side of the Moon", 10)
+album_1 = make_album("Arijit Singh", "Tum Hi Ho")
+album_3 = make_album("Shreya Ghoshal", "Aashiqui 2", 10)
 
 print(album_1)
 print(album_2)
