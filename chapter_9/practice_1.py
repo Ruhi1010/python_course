@@ -42,5 +42,5 @@ audi.print_odometer()
 audi.update_odometer(20)
 audi.print_odometer() 
 
-harley = Bike('herley', 'SportsBike', 2019)
+harley = Bike('Harley', 'SportsBike', 2019)
 harley.description()
