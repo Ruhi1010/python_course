@@ -44,3 +44,17 @@ audi.print_odometer()
 
 harley = Bike('Harley', 'SportsBike', 2019)
 harley.description()
+
+class Truck(Car):
+    def __init__(self, name, model, year):
+        super().__init__(name, model, year)
+    
+    def description(self):
+        print(f'Truck Name: {self.name}')
+        print(f'Truck Model: {self.model}')
+        print(f'Truck Year: {self.year}')
+ 
+ford = Truck("Ford", "F-150", 2021)
+ford.description()
+ford.update_odometer(100)
+ford.print_odometer()
